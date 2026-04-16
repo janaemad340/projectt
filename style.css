@@ -1,0 +1,183 @@
+body {
+   font-family: "Lexend Deca", sans-serif;
+     font-optical-sizing: auto;
+     margin:0px;
+     background-color: #825baf;
+     box-sizing: border-box;
+     padding: 0;
+     border-radius: 12px;
+}
+body {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+.logo{
+    width: 100px;
+    border-radius: 100px 100px;
+    height: auto;
+}
+.header{
+    background-color:#64408d;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 9px 0px 0px;
+    border-radius: 0px  0px 0px  50px;
+    box-sizing: border-box;
+}
+.header_links a{
+    display: flex;
+    color:#321d4d;
+    justify-content: space-around;
+    padding:0px 15px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+} 
+.header_links button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #7e57aa;
+    background-color:#a68cc5;
+}
+.header_links button:hover{
+    background-color: #b293d9;
+    border-radius: 70px 70px ;
+    transform: scale(1.03);
+    
+}
+.landing_page section{
+    background-color:#ae97c9;
+    border-radius: 15px 50px ;
+}
+
+.about_us ,.intentions, .provides{
+   
+    padding: 10px 30px;
+    margin: 20px auto;
+    margin-top: 0;
+    margin-bottom:10px ;
+    width:90%;
+}
+section:hover{
+    background-color: #baa5d2;
+}
+.course_table{
+    width:90%;
+    align-items: center;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    border-radius:20px ;
+    overflow: hidden;
+    box-shadow: 0 5px 15px;
+}
+.main_style h1{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 4px 3px#402069;
+
+}
+.header h4{
+    font-size: 20px;
+}
+.course_table tr:hover{
+    background-color:#dcbee6 ;
+}
+.head_table th{
+    background-color: #6d29bb;
+}
+.head_table td,tr{
+    background-color:#baa5d2;
+}
+.formi{
+    padding: 20px;
+    width: 90% auto;
+    max-width: 400px;
+    border-radius: 25px;
+    background-color:#f3e4f8;
+    box-shadow: 0 10px 15px;
+}
+form{
+    padding: 20px;
+    width: 100% auto;
+    max-width: 1000px;
+    align-content: center;
+    border-radius: 25px;
+    background-color:#f3e4f8;
+    box-shadow: 0 10px 15px;
+}
+.form_add {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    background-color:#dcbee6;
+border-radius: 5550000px 20000px;
+}
+form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+form h4{
+    color: #402069;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    outline:#825baf;
+}
+.sumbit_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #3c1d5f;
+}
+.sumbit_button:hover{
+    background-color:#d398df ;
+    transform: scale(1.03);
+}
+.contact_box{
+    background-color:#ae97c9;
+    border-radius: 20px;
+    border-color: #402069;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding:0 15px 10px ;
+}
+.contact_box:hover{
+    background-color: #baa5d2;
+}
+.my_footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #402069;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+body{
+    margin-bottom: 60px;
+}
+
